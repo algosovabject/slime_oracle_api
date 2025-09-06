@@ -1,37 +1,46 @@
-# 🔮 Slime Mold Oracle API
+🔮 Slime Mold Oracle API
 
-A playful-yet-serious experiment combining philosophy, horror aesthetics, and generative logic.  
-The Slime Mold Oracle API lets you ask a question and receive symbolic “mold wisdom” in return.  
+The Slime Mold Oracle API is a small FastAPI project that blends machine learning aesthetics with occult horror. It accepts a user’s question and returns symbols and an interpretation, like consulting a digital divination system.
 
----
+This project serves two purposes:
 
-## Features
-- Built with [FastAPI](https://fastapi.tiangolo.com/)  
-- Simple JSON interface (ask a question → get symbols + interpretation)  
-- Deployable locally or to cloud platforms like Render / Hugging Face  
+Portfolio Sample – an example of API documentation and technical writing.
 
----
-
-## Quickstart
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/algosovabject/slime_oracle_api.git
-cd slime_oracle_api
+Conceptual Experiment – art/tech fusion inspired by philosophy, horror, and the aesthetics of abjection.
 
 
+🚀 Features
 
----
-title: Slime Mold Oracle
-emoji: 🐢
-colorFrom: red
-colorTo: gray
-sdk: gradio
-sdk_version: 5.44.1
-app_file: app.py
-pinned: false
-license: mit
-short_description: Graph-based agent that operates like a deck of tarot cards
----
+FastAPI backend with auto-generated Swagger and ReDoc docs.
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+POST /oracle/query endpoint that returns symbols + interpretation.
+
+Example UI (Streamlit) for interacting with the Oracle.
+
+
+📖 Documentation
+
+Full API reference (with request/response examples) is available here:
+👉 Slime Mold Oracle API Reference
+
+Screenshots of the live docs (Swagger UI & ReDoc) can be found in /images/.
+
+
+🧪 Run Locally
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the API
+uvicorn main:app --reload
+
+# Visit Swagger UI
+http://127.0.0.1:8000/docs
+
+
+⚠️ Note
+
+This project is not a production service. It’s a writing + technical demo to showcase API documentation and playful horror aesthetics.
+
+
+🕷️ “The mold whispers… but do you listen?”
