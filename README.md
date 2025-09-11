@@ -15,9 +15,9 @@ Ability to format in Markdown, write for multiple audiences, translate jargon in
 ## Preview:  
 
 Full API reference (with request/response examples) is available here:
-👉 [Slime Mold Oracle API Reference](link here)
+👉 [Slime Mold Oracle API Reference](docs/API_reference.md)
 
-Screenshots of the live docs (Swagger UI & ReDoc) can be found in /images/.
+Screenshots of the live docs (Swagger UI & ReDoc) can be found here: [images](docs/images)
 
 ## 🧪 Run Locally
 
