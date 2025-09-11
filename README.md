@@ -1,4 +1,4 @@
-# Graph-Based AI Agent API
+# Graph-Based AI Agent API 🕹️
 
 ## Overview
 Small FastAPI project that blends machine learning with horror aesthetics. It accepts a user’s question and returns symbols and an interpretation, like consulting a digital divination system.
@@ -7,10 +7,12 @@ Small FastAPI project that blends machine learning with horror aesthetics. It ac
 Designed for technical-adjacent users who need a plain-language introduction to APIs.
 
 ## Why I wrote this: 
-To round out my technical writing portfolio with an example of API documentation and technical writing.
+To demonstrate API documentation skills, including reference docs, auto-generated Swagger/ReDoc, and developer onboarding instructions.
 
 ## What it demonstrates: 
-Ability to format in Markdown, write for multiple audiences, translate jargon into clear explanations, and provide glossary-style reference material.
+- Writing endpoint documentation with request/response examples.  
+- Creating README content for local deployment and troubleshooting.  
+- Structuring API docs for both technical precision and developer usability.  
 
 ## Preview:  
 
